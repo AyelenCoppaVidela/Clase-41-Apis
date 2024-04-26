@@ -8,4 +8,5 @@ router.post('/api/movies/create', moviesController.create);
 router.put('/api/movies/update/:id', moviesController.update);
 router.delete('/api/movies/delete/:id', moviesController.delete);
 
+
 module.exports = router;
